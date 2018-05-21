@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import '@/assets/main.css'
-import '@/assets/main.scss'
-import '@/assets/main.1.sass'
+// import '@/assets/main.css'
+// import '@/assets/main.scss'
+import '@/assets/main.sass'
 
 Vue.config.productionTip = false
 

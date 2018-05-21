@@ -7,9 +7,12 @@
 export default {
 	data(){
 		return{
-message:'hello, World'
+			message:'hello, world'
 		}
 	}
 }
 </script>
+<style lang="sass" scoped>
+
+</style>
 
