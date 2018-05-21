@@ -1,6 +1,15 @@
 <template>
-	<div>
-		<h3>Hello, Mahayogi !</h3>
-	</div>
+  <div>
+    <h2>{{message}}</h2>
+  </div>
 </template>
-  
+<script>
+export default {
+	data(){
+		return{
+message:'hello, World'
+		}
+	}
+}
+</script>
+

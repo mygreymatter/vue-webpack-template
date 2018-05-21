@@ -1,4 +1,4 @@
-# sample
+# founder
 
 > A Vue.js project
 
