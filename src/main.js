@@ -3,9 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import '@/assets/main.css'
-// import '@/assets/main.scss'
+import '@/assets/main.css'
+//import '@/assets/main.scss'
 import '@/assets/main.sass'
+import 'bootstrap'
 
 Vue.config.productionTip = false
 

@@ -1,30 +1,24 @@
-# founder
+> A template for E-commerce web app.
 
-> A Vue.js project
-
-## Build Setup
-
+## Creating a Vue webpack project
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+1. vue init webpack <project-name>
+2. cd <project-name>
+3. npm run dev
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Bootstrap
+[How to include the  Bootstrap with Webpack](https://stevenwestmoreland.com/2018/01/how-to-include-bootstrap-in-your-project-with-webpack.html)
+```bash
+#install Bootstrap,JQuery and popper.js
+npm i bootstrap jquery popper.js --save
+#import bootstrap javascript in the entry file
+import 'bootstrap'
+#scss file in /assets
+Create a .scss file in the assets
+#import all of Bootstrap's Sass in to the .scss file
+import '~bootstrap/scss/bootstrap'
+#import the .scss file in to the entry file
+import '@/assets/main.scss'
+
+```
